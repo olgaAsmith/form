@@ -9,10 +9,26 @@ npm run dev
 # or
 yarn dev
 # or
-pnpm dev
-# or
-bun dev
 ```
+----
+### Manual
+```
+
+run server -- npm run server or node src/server.tsx
+run app -- npm run dev
+
+(mock === true, turn off -- src/api/config.tsx)
+
+user login real api:
+email: test@test.test
+password: 111111
+
+server : http://localhost:3001
+app: http://localhost:3000
+```
+----
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
