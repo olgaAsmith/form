@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "server": "node src/server.tsx",
+    "server": "node src/server.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import styles from './page.module.css';
 import { useRouter } from 'next/navigation';
+import React from 'react';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);

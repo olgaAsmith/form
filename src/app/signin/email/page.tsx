@@ -47,7 +47,7 @@ export default function SigninEmail() {
             required: 'Обязательное поле',
             pattern: {
               value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
-              message: 'Некорректынй адрес почты',
+              message: 'Некорректный адрес почты',
             },
           })}
         />
